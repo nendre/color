@@ -1,1 +1,1 @@
-web: gunicorn -b "0.0.0.0:8080" groovie.wsgi
+web: gunicorn -b "0.0.0.0:$PORT" groovie.wsgi
