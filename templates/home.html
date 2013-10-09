@@ -1,0 +1,33 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <link href="/static/css/style.css" rel="stylesheet" media="all" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    </head>
+    <body>
+        <header>
+        <h1>Test page home</h1>
+        </header>
+        <div>
+            <section id="control">
+                <form>
+                    <select id="select_category">
+                        <option>Select Category</option>
+                        <option>Movie</option>
+                        <option>Books</option>
+                        <option>Music</option>
+                    </select>
+                    <select id="sort_by">
+                        <option>Downloads</option>
+                        <option>Seeds</option>
+                    </select>
+                    <input type="text" placeholder="Search text" />
+                    <input tpye="text" placeholder="Exclude from result.. (words separated by comma)" />
+                </form>
+            </section>
+            <section id="result">
+            </section>
+        </div>
+    </body>
+    <script src="/static/js/groovie.js" type="application/javascript"></script>
+</html>
